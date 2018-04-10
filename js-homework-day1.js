@@ -47,7 +47,7 @@ const allSuspects = function () {
 allSuspects();
 console.log(`Suspect three is: ${ suspectThree }`);
 
-// as suspectThree is being initialised inside , the print out within the function will be (Jay, Val, Harvey, Rick). That suspectThree is not visible outside the block and so Keith will be printed out by line 48
+// as suspectThree is being initialised inside the function, the print out within the function will be [Jay, Val, Harvey, Rick]. That suspectThree is not visible outside the block and so Keith will be printed out by line 48
 
 const detective = {
   name: 'Ace Ventura',
